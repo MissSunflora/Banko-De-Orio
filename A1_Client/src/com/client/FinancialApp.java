@@ -73,7 +73,7 @@ public class FinancialApp {
 		     Scanner scnr = new Scanner(System.in);
              Bank tempBank = new Bank();
              
-	        for (int i=1; i < 5; i++) {
+	        //for (int i=1; i < 5; i++) {
 
 					try {
 	                     // keyboard input
@@ -285,7 +285,7 @@ public class FinancialApp {
 	                         dosToServer.writeInt( customerOption );
 		                     dosToServer.flush();
 
-	                     }
+	                     //}
 	                 
 
 	               	
