@@ -11,12 +11,16 @@ java com.server.Server com.server.HandleClient com.server.Bank com.seneca.accoun
 
 ## --- CLIENT
 javac com\client\FinancialApp.java
+
 java com.client.FinancialApp
 
 
 ## --- JAR
 cd C:\Users\nesab\Desktop\A1
+
 jar xvf ja2.jar
+
 java -cp .;client com/server/Server
+
 java com/client/FinancialApp
 
